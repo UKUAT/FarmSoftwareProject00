@@ -20,12 +20,12 @@ Uploading code to an ESP device is done in two ways;
 
 If it is the first time uploading code, it will need to be manually flashed using a connection to the computer. Firsty, compile the code at ESP Home GUI. If all is fine, it will save and you can download it as a binary file. 
 Then, you need to flash this binary file to the ESP device using ESP Home Flasher using Python 
-'''
+```
 pip install esphomeflasher
-'''
+```
 https://github.com/esphome/ESPHome-Flasher
 
-Open this software using cmd 'esphomeflasher'
+Open this software using cmd `esphomeflasher`
 Then select the ESP device on a COM port, and flash with the downloaded binary file. 
 
 If successful, the ESP device will connect with your Home Assistant instance when it is powered up. You can check the logs of the outputs using the ESP Home GUI. 
