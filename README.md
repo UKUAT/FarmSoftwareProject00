@@ -24,6 +24,10 @@ ESP Home has an in-app GUI that takes you through the process of creating a YAML
 It is simply a case of copying the code from ESP Home website, adding to a YAML file, choosing the correct GPIO pin to connect the device to A list of integreated devices is shown here;
 https://esphome.io/index.html
 
+For example, code for BMP280:
+![img6](https://user-images.githubusercontent.com/52703479/112816729-9a5a8c00-9079-11eb-8490-f0d45328b341.png)
+
+
 
 ### Uploading Code
 Uploading code to an ESP device is done in two ways;
